@@ -25,9 +25,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${jaldi.className} antialiased`}>
         {/* background settings and colors */}
-        <main className="flex justify-center bg-stone-100 min-h-screen w-full">
+        <main className="bg-stone-100 min-h-screen min-w-screen">
           {/* font */}
-          <div className="text-neutral-900">
+          <div className="text-neutral-900 w-full mx-auto px-4">
             <Header />
             {children}
           </div>
